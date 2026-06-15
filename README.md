@@ -1,61 +1,40 @@
-# HyperDroid - PC Launcher
-Native desktop experience on your android device.
+# HyperOS
 
-## Get
-<a href="https://play.google.com/store/apps/details?id=com.binary.hyperdroid">
-  <img src="src/assets/playstore_link.svg" alt="Build" />
-</a>
+HyperOS is an open-source, community-driven desktop environment built from the ground up for Android power users. Inspired by the windowed layout of HyperDroid, this project expands the concept into a highly modular, feature-rich ecosystem designed to replicate a true PC experience on mobile and tablet devices.
 
-<table>
-  <thead>
-    <tr>
-      <th colspan="2">Screenshots</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center;">
-        <img src="src/assets/screen_1.webp" alt="App's main screen with StartMenu" width="350">
-      </td>
-      <td style="text-align: center;">
-        <img src="src/assets/screen_4.webp" alt="Settings system" width="350">
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align: center;">
-        <img src="src/assets/screen_5.webp" alt="File Manager" width="350">
-      </td>
-      <td style="text-align: center;">
-        <img src="src/assets/screen_3.webp" alt="Settings colors" width="350">
-      </td>
-    </tr>
-  </tbody>
-</table>
+At its core, HyperOS relies on a specialized extension framework. Rather than just functioning as a visual launcher, it operates as a platform where users can install custom-built extensions and recreated PC applications directly through an in-app marketplace styled after the Microsoft Store. The ultimate objective is to continuously integrate advanced utilities, sandboxed software, and desktop features until the platform evolves into a fully realized alternative OS experience for Android.
 
-## Features
+---
 
-### ✨ **User-Friendly Interface**  
-<sup>Intuitive desktop-style interface optimized for both touch input and external peripherals (keyboard, mouse, etc.).</sup>
+## Core Architecture
 
-### 🪟 **Floating Window Support**  
-<sup>Launch installed WebApps in resizable, floating windows for enhanced multitasking.</sup>
+* **Modular Extension Framework:** A dedicated, repository-backed marketplace designed to look and feel like the Microsoft Store, allowing users to download tools, frontends, and custom system extensions.
+* **Power-User Optimization:** Built specifically to handle intensive windowed multitasking, advanced customization, and utility integration beyond standard launcher limitations.
+* **Open-Source & Community-Led:** Fully transparent development, welcoming contributions to expand the available app catalog and core feature set.
 
-### ⚙️ **Customizable Display Density**  
-<sup>Adjust screen scaling to suit your preferences and display size.</sup>
+---
 
-### 🌍 **Multi-Language Support**  
-<sup>Available in multiple languages to ensure a more accessible experience for all users.</sup>
+## Planned Feature Roadmap
 
-### 📁 **Built-in File Manager**  
-<sup>Manage your files easily with a clean and user-friendly file explorer.</sup>
+- [ ] **Live Desktop Engine:** Support for live wallpapers and dynamic, interactive desktop icons.
+- [ ] **Custom App Marketplace:** A repository-driven extension store styled after the Microsoft Store layout.
+- [ ] **Steam Frontend:** A dedicated, windowed gaming frontend optimized to look like a native Windows application.
+- [ ] **Advanced Utility Sandbox:** An isolated environment within the app to run macro tools, MIDI-to-macro software, and system accessibility services.
 
-### 🎨 **Editable App Icons and Names**  
-<sup>Personalize your experience by renaming apps and changing their icons.</sup>
+---
 
-### 📱 **Set as Default Launcher**  
-<sup>Optionally set **HyperDroid** as your system’s default launcher for seamless integration.</sup>
+## Contributing
 
-## Links
-<a href="https://github.com/windows-ui/HyperDroid/tree/main/PrivacyPolicy">
-  <img src="https://img.shields.io/badge/Privacy%20Policy-View-blue?style=for-the-badge&logo=polywork&logoColor=white" style="height:40px;">
-</a>
+Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions to expand the extension ecosystem, optimize performance, or improve the core UI are greatly appreciated.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
