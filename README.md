@@ -1,4 +1,4 @@
-# 🖥️ HyperOS
+# 🖥️ Hyper-OS
 
 <p align="center">
   <strong>The Ultimate Power-User Desktop Environment for Android</strong>
